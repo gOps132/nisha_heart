@@ -15,20 +15,21 @@ module.exports = {
 						'raw-loader',
 						'glslify-loader',
 					]
-				},
-				{
-					test: /\.ttf$/,
-					use: 
-					[
-						{
-							loader: 'ttf-loader',
-							options: {
-							name: './font/[hash].[ext]',
-							},
-						},
-						'file-loader'
-					]
 				}
+				//,
+				// {
+				// 	test: /\.ttf$/,
+				// 	use: 
+				// 	[
+				// 		{
+				// 			loader: 'ttf-loader',
+				// 			options: {
+				// 			name: './font/[hash].[ext]',
+				// 			},
+				// 		},
+				// 		'file-loader'
+				// 	]
+				// }
 		);
 		return config
 	}

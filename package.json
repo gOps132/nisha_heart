@@ -23,7 +23,6 @@
     "three": "^0.151.2"
   },
   "devDependencies": {
-    "file-loader": "^6.2.0",
-    "ttf-loader": "^1.0.2"
+    "file-loader": "^6.2.0"
   }
 }
