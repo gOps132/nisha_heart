@@ -34,7 +34,7 @@ function Star(props) {
             x += 0.01;
             // console.log(Math.round(x * 100) / 100);
         }
-        star_ref.current.rotation.y = clock.getElapsedTime() * 0.1;
+        star_ref.current.rotation.y = clock.getElapsedTime() * 0.01;
 	})
 
     return (
@@ -47,7 +47,7 @@ function Star(props) {
                     itemSize={3}
                     usage={THREE.DynamicDrawUsage}
                 />
-                <pointsMaterial attach="material" color={0xFFFFFF} vertexColors size={10} sizeAttenuation={false} />
+                <pointsMaterial attach="material" color={0xFFFFFF} vertexColors size={40} sizeAttenuation={false} />
             </bufferGeometry>
         </points>
     )

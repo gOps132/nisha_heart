@@ -33,12 +33,15 @@ export default function Home() {
 				/>
 				<ambientLight intensity={0.7} fallback={null}/>
 				<SpotLight 
-					color={0x3ff2dd}
+					color={0xFFFF}
+					// intensity={10}
+						// distance={0.1}  // Shorter distance = less intense reach
+						decay={1}      // Higher decay = faster intensity dropoff
 				/>
-				<Star stars={20000}/>
+				<Star stars={1000}/>
 				<Text 
 					position={[0,40,0]} 
-					text={"For my cutee GFFF"}
+					text={"To my lovely Nisha"}
 				/>
 				<Model position={[0,0,0]}/>
 				<Text 

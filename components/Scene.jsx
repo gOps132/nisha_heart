@@ -73,11 +73,11 @@ export default function Model(props) {
 					<meshPhysicalMaterial
 						roughness={10}
 						metalness={0.0}
-						reflectivity={1.5}
+						reflectivity={1.0}
 						transmission={0}
 						thickness={1}
-						color={0x800080}
-						// blending={THREE.AdditiveBlending}
+						color={0x95D6F1}
+						blending={THREE.AdditiveBlending}
 					/>
 			</mesh>
 			<mesh
